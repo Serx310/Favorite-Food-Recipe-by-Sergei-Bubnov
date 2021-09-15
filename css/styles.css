@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Patrick+Hand&display=swap');
 
 :root{
+    --headings: #929ead;
+    --text: white;
     --heading-font: 'Patrick Hand', cursive;
     --text-font: 'Caveat', cursive;
 }
