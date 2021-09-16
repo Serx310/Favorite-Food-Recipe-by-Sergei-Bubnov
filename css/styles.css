@@ -2,7 +2,7 @@
 
 :root{
     --headings: #101209;
-    --text: white;
+    --text:  #16331E;
     --heading-font: 'Patrick Hand', cursive;
     --text-font: 'Caveat', cursive;
 }
@@ -18,11 +18,21 @@ body{
     font-family: var(--text-font-family);
     color: var(--text);
 }
+.main{
+    width: 75%;
+    margin: 0 auto;
+}
  .pasta_pic{
-    width: 15%;
+    width: 25%;
     float: left;
     margin-right: 2rem; 
 } 
+
+h1{
+    font-family: var(--heading-font);
+    color: var(--headings);
+    text-align: center;
+}
 
 h2{
     font-family: var(--heading-font);
@@ -42,13 +52,14 @@ h2{
     width: 7%;
     background-color: #199319;
     color: white;
-    padding: 10px 25px;
+    padding: 10px 10px;
     cursor: pointer;
     border: none;
     border-radius: 4%;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: 31rem;
     /* margin-left: 32cm; */
-    margin-bottom: 1cm;
+    margin-bottom: 1rem; 
 }
 
 .classical_recipe:hover{
@@ -57,4 +68,55 @@ h2{
 
 .ingredients ul{
     float: right;
+    font-size: 20px;
+}
+
+.preparation{
+    text-align: center;
+}
+
+.preparation ol {
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+ol{
+    font-family: var(--text-font);
+}
+
+ul{
+    font-family: var(--text-font);
+    list-style-type: none;
+}
+
+.bottom_container ul {
+    margin-left: 28rem;
+}
+
+.bottom_container{
+    align-items: center;
+}
+
+.bottom-link{
+    display: inline-block;
+    font-family: var(--text-font);
+}
+
+.copyright{
+    font-family: var(--heading-font);
+    margin-left: 30rem;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.li-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.li-wrapper a {
+    text-decoration: none;
+    color: var(--text);
 }
